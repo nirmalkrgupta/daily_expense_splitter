@@ -15,10 +15,12 @@ body {
   border-radius: 15px;
   box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
 }
-h2 {
+p{
   text-align: center;
   margin-bottom: 20px;
   color: #333;
+  font-size: 25px;
+  font-weight: 600;
 }
 label {
   font-weight: bold;
@@ -26,7 +28,7 @@ label {
   margin: 10px 0 5px;
 }
 input {
-  width: 100%;
+  width: 92%;
   padding: 10px;
   margin-bottom: 15px;
   border-radius: 8px;
@@ -62,4 +64,10 @@ button {
 #qrcode {
   text-align: center;
   margin-top: 15px;
+}
+/* 📱 Mobile Responsive Design */
+@media (max-width: 600px) {
+  p{
+    font-size: 22px;
+  }
 }
