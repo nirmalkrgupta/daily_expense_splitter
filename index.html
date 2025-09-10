@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Expense Splitter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>💰 Daily Expense Splitter</h2>
+    
+    <label>Nirmal's Spending (₹):</label>
+    <input type="number" id="personA" placeholder="Enter amount">
+
+    <label>Devendra's Spending (₹):</label>
+    <input type="number" id="personB" placeholder="Enter amount">
+
+    <div class="btn-group">
+      <button class="calculate" onclick="calculateSplit()">Calculate</button>
+      <button class="reset" onclick="resetForm()">Reset</button>
+    </div>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
